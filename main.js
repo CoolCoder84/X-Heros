@@ -17,8 +17,8 @@ function player_update() {
 
         player_object.scaleToHeight(140);
         player_object.set({
-            top: player_X,
-            left: player_Y
+            top: player_Y,
+            left: player_X
         });
         canvas.add(player_object);
 
@@ -31,8 +31,8 @@ function new_image(get_image) {
         body_Part_image.scaleToWidth(body_Part_width);
         body_Part_image.scaleToHeight(body_Part_height);
         body_Part_image.set({
-            top: player_X,
-            left: player_Y
+            top: player_Y,
+            left: player_X
         });
         canvas.add(body_Part_image);
     });
